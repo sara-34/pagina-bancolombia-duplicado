@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
 
 :root{
     --color :#2c2a29;
@@ -131,12 +134,248 @@
 }
 
 .tarjetas-bancolombia{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-bottom: solid 1px var(--color);
+}
+
+.tarjetas-bancolombia ul li{
     display: inline-block;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    margin-right: 80px;
+    padding: 10px 30px;
+}
+
+.tarjetas-bancolombia ul li a{
+    color: var(--color);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/*Boton */
+
+.boton-filtrar{
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    border: solid 1px var(--color);
+    background-color: white;
+    margin: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-lef:100px;
+}
+
+.boton-filtrar img{
+   margin-right: 8px;
+   position: relative;
+   align-items: center;
+}
+
+/*Cards*/
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,280px);
+    gap: 26px;
+    place-content: center;
+    
+}
+.cards1{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    border: 1px solid #e8e6e7;
+    border-radius: 30px;
+    box-shadow: 0 1px 8px #2c2a2914;
+}
+
+.comparar{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+
+.comparar p{
+    margin-left: 10px;
+}
+
+.informacion{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.informacion p{
+    margin-top: 20px;
+}
+.titulo{
+    font-size: 14px;
+}
+
+.boton-cuotas{
+    display: flex;
+    
+}
+
+.cuota{
+    
+    width: 200px;
+    height: 30px;
+    background-color: #2c2a29;
+    border-radius: 40px;
+    margin: 35px 0 0 10px;
+    
+}
+
+.boton-cuotas p{
+    color: white;
+}
+
+
+.boton-flecha button{
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+}
+
+.boton-flecha button{
+    background-color: #fdda24;
+    border-radius: 31px;
+    border: none;
+    cursor: pointer;
+    color: #2C2A29;
+    border-radius: 31px;
+    height: 40px;
+    width: 40px;
+    transition: background-color .5s,box-shadow .5s;
+}
+
+.boton-flecha img{
+    margin: 6px 5px;
+}
+
+
+.tarjeta-img{
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.tarjeta-img img:hover {
+    
+    transform: rotate3d(1, 2, 3, 15deg);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.ver-mas{
+    text-align: center;
+}
+
+.ver-mas a{
+    color: #2c2a29;
+}
+
+/*Cards largas*/
+
+/**/
+
+.footer-negro{
+    display: flex;
+    background-color: #2c2a29;
+    color: white;
+    width: auto;
+    height: auto;
+}
+
+.iconos{
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+.iconos img{
+    margin-left: 10px;
+}
+.lista-1{
+    margin: 50px;
+    display: flex;
+}
+
+.lista-1 h2{
+    font-size: 15px;
 
 }
+.lista-1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.lista-1 ul li{
+   padding: 5px;
+   list-style: none;
+}
+
+
+
+
+
+.lista-2{
+    margin: 50px;
+    display: flex;
+}
+
+.lista-2 h2{
+    font-size: 15px;
+
+}
+.lista-2 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.lista-2 ul li{
+   padding: 5px;
+   list-style: none;
+}
+
+
+.lista-3{
+    margin: 50px;
+    display: flex;
+}
+
+.lista-3 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.lista-3 ul li{
+   padding: 5px;
+   list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
