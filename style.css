@@ -77,18 +77,19 @@ body{
 .navegacion-center ul li a{
     color: black;
     text-decoration: none;
+    font-size: 10px;
     font-size: var(--letra-textos);
 
 }
 
-.logo-bancolombia img{
+.logo-bancolombia1 img{
     width: 80%;
     
 }
-.logo-bancolombia{
+.logo-bancolombia1{
     width: 300px;
     position: relative;
-    right: 60px;
+    right: 40px;
 
 }
 
@@ -98,6 +99,30 @@ body{
     justify-content: end;
     align-items: center;
     margin-left: 200px;
+}
+
+.caja button{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #e8e6e7;
+    font-size: 13px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 1px 8px #2c2a2914;
+}
+
+.primer-boton button{
+    width: 60px;
+    height: 40px;
+    background-color: #fdda24;
+    border-radius: 60px;
+    font-weight: bold;
+    border: none;
+}
+
+.menu-mobile{
+    display: none;
 }
 
 .banner{
@@ -169,7 +194,7 @@ body{
     font-weight: bold;
     font-size: 16px;
     text-align: center;
-    margin-lef:100px;
+    margin-left:100px;
 }
 
 .boton-filtrar img{
@@ -247,6 +272,10 @@ body{
     
 }
 
+.boton-flecha1{
+    display: none;
+}
+
 .boton-flecha button{
     background-color: #fdda24;
     border-radius: 31px;
@@ -277,6 +306,7 @@ body{
 }
 
 .ver-mas{
+    margin-top: 30px;
     text-align: center;
 }
 
@@ -285,11 +315,119 @@ body{
 }
 
 /*Cards largas*/
+.informacion-cards{
+    background-color: #e8e6e7;
+}
+.contenedor{
+    margin: 40px 80px 0 80px;
+}
+.card-larga{
+
+    width: 100%;
+    padding-right: 15px;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.info-card{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    width: 95%;
+    min-height: 126px;
+    margin: 0 auto;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.1);
+}
+
+.info-card img{
+    margin-left: 20px;
+}
+
+.info1{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    width: 95%;
+    min-height: 126px;
+    margin: 0 auto;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.1);
+
+}
+.info1{
+    margin-left: 15px;
+}
+
+.info1 img{
+    margin-left: 15px;
+}
+
+.card-larga1{
+
+    width: 100%;
+    padding-right: 15px;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.info-container-azul{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    width: 95%;
+    min-height: 126px;
+    margin: 0 auto;
+    align-items: center;
+    background: #59CBE8;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.1);
+}
+
+.info-container-azul{
+    margin-left: 15px;
+}
+
+
+
+.botton button{
+    margin-right: 100px;
+    width: 200px;
+    height: 50px;
+    text-decoration: underline;
+    background-color: #fdda24;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+}
+
+.botton-blanco button{
+    margin-right: 100px;
+    margin-right: 100px;
+    width: 200px;
+    height: 50px;
+    text-decoration:underline;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none
+}
+
+
+
 
 /**/
 
 .footer-negro{
     display: flex;
+    padding: 50px;
     background-color: #2c2a29;
     color: white;
     width: auto;
@@ -305,18 +443,20 @@ body{
     margin-left: 10px;
 }
 .lista-1{
-    margin: 50px;
+    width: 70%;
+    margin: 50px 30px;
     display: flex;
 }
 
 .lista-1 h2{
     font-size: 15px;
+    padding-bottom: 30px;
 
 }
 .lista-1 ul li a{
     text-decoration: none;
     color: white;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .lista-1 ul li{
@@ -329,18 +469,20 @@ body{
 
 
 .lista-2{
-    margin: 50px;
+    width: 70%;
+    margin: 50px 2px;
     display: flex;
 }
 
 .lista-2 h2{
     font-size: 15px;
+    padding-bottom: 30px;
 
 }
 .lista-2 ul li a{
     text-decoration: none;
     color: white;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .lista-2 ul li{
@@ -350,20 +492,227 @@ body{
 
 
 .lista-3{
-    margin: 50px;
+    margin: 50px 5px;
     display: flex;
 }
 
 .lista-3 ul li a{
     text-decoration: none;
     color: white;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .lista-3 ul li{
    padding: 5px;
    list-style: none;
 }
+
+
+.lista-4{
+    width: 70%;
+    margin: 50px 10px;
+    display: flex;
+    border-right: 1px solid white;
+}
+
+.lista-4 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.lista-4 h2{
+    padding-bottom: 30px;
+}
+
+.lista-4 h2 a{
+    color: white;
+}
+
+.lista-4 ul li{
+   padding: 5px;
+   list-style: none;
+}
+
+.informacion-footer{
+    margin-top: 100px;
+}
+
+.informacion-footer p{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+
+}
+
+.iconos{
+    margin-top: 30px;
+}
+
+/*Footer blanco*/
+
+
+.informacion-footer-blanco{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-bancolombia{
+    margin: 10px 40px;
+    width: 300px;
+}
+
+.logo-bancolombia img{
+    width: 80%;
+    
+}
+
+.texto{
+    margin:30px 20px;
+}
+
+
+/*Media Query////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (max-width: 670px){
+    .navegar-sobre-nosotros{
+        display: none;
+    }
+
+    .barra-navegacion{
+        display: flex;
+    }
+
+    .logo-bancolombia1{
+        display: flex;
+        justify-content: start;
+        margin: 35px;
+    }
+
+    .logo-bancolombia1 img{
+        width: 80%;
+    }
+
+    .navegacion-center{
+        display: none;
+    }
+
+    .sucursal{
+        display: none;
+    }
+
+    .menu-mobile{
+        display: flex;
+        justify-content: end;
+    }
+
+    .menu-mobile img{
+        width: 20%;
+    }
+
+    .banner{
+        display: block;
+    }
+
+    .texto-targeta{
+        text-align: center;
+    }
+
+    .tarjetas-bancolombia #desaparecer{
+        display: none;
+        
+    }
+
+    .boton-flecha1{
+        display: flex;
+        width: 50px;
+    }
+
+    .boton-flecha1 button{
+        background-color: #fdda24;
+        border: none;
+    }
+
+    .boton-filtrar{
+        margin: 50px 13px;
+    }
+
+    .info-card{
+        display: block;
+        width: 100%;
+        padding: 30px;
+    }
+
+    .info-card img{
+        width: 20%;
+
+    }
+
+    .info1{
+        display: block;
+        width: 100%;
+        padding: 30px;
+    }
+
+    .info1 img{
+
+        width: 20%;
+    }
+
+    .info-container-azul{
+        display: block;
+        width: 100%;
+        padding: 30px;
+    }
+
+    .info-container-azul img{
+        width: 30%;
+    }
+
+    .footer-negro{
+        display: block;
+        
+    }
+
+    .lista-1{
+        margin: 50px 15px;
+        border-bottom: solid 1px white;
+        
+    }
+
+    .lista-2{
+        border-bottom: solid 1px white;
+    }
+
+    .lista-3{
+        border-bottom: solid 1px white;
+    }
+
+    .lista-4{
+        border-bottom: solid 1px white;
+        border-right: none;
+    }
+
+    .informacion-footer{
+        text-align: center;
+    }
+
+    .iconos{
+        margin-left: 150px;
+    }
+
+    .informacion-footer-blanco{
+        display: block;
+        text-align: center;
+    }
+
+    .logo-bancolombia{
+        margin-left: 150px;
+    }
+
+}
+
+
 
 
 
